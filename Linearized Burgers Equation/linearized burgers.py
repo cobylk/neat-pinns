@@ -195,7 +195,7 @@ def run(num_generations=100, checkpoint=0):
 
 if __name__ == '__main__':
 
-    genome = run(num_generations=218, checkpoint=782)
+    genome = run(num_generations=1000, checkpoint=0)
     
     d = adj_mat, biases, acts, ags = get_graph_repr(genome)
 
