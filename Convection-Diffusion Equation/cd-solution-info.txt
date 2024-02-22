@@ -1,0 +1,16 @@
+L2 Error: 6.651803851127625E-2
+Training Fitness: -2.212893683463335E-3
+5 nodes, 6 connections
+Nodes:
+        0 DefaultNodeGene(key=0, bias=2.507150451443297, response=1.0, activation=sigmoid, aggregation=sum)
+        21 DefaultNodeGene(key=21, bias=2.3051263043353285, response=1.0, activation=identity, aggregation=product)
+        29 DefaultNodeGene(key=29, bias=0.04414337645175363, response=1.0, activation=identity, aggregation=product)
+        212 DefaultNodeGene(key=212, bias=-1.0625373815137613, response=1.0, activation=exp, aggregation=sum)
+        1780 DefaultNodeGene(key=1780, bias=-0.6208647351680305, response=1.0, activation=identity, aggregation=sum)
+Connections:
+        DefaultConnectionGene(key=(-1, 0), weight=-0.24420131442758702, enabled=False)
+        DefaultConnectionGene(key=(-1, 21), weight=2.101536324372007, enabled=True)
+        DefaultConnectionGene(key=(0, 1780), weight=-2.4243992401317502, enabled=True)
+        DefaultConnectionGene(key=(21, 1780), weight=2.8557173093407595, enabled=True)
+        DefaultConnectionGene(key=(29, 21), weight=-0.4751085984930229, enabled=True)
+        DefaultConnectionGene(key=(1780, 212), weight=-2.0296116614337905, enabled=True)
