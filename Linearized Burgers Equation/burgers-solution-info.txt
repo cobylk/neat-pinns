@@ -1,0 +1,25 @@
+L2 Error: 0.8345968127250671
+Training Fitness: -0.1165509819984436
+7 nodes, 13 connections
+Nodes:
+        0 DefaultNodeGene(key=0, bias=0.4704966955460289, response=1.0, activation=gauss, aggregation=product)
+        735 DefaultNodeGene(key=735, bias=-0.5018949089125937, response=1.0, activation=identity, aggregation=sum)
+        2461 DefaultNodeGene(key=2461, bias=-0.02249566005386866, response=1.0, activation=gauss, aggregation=sum)
+        5974 DefaultNodeGene(key=5974, bias=-0.15780643956069895, response=1.0, activation=identity, aggregation=product)
+        11092 DefaultNodeGene(key=11092, bias=-0.35754583383398747, response=1.0, activation=gauss, aggregation=product)
+        18164 DefaultNodeGene(key=18164, bias=0.9501590948237975, response=1.0, activation=identity, aggregation=sum)
+        29275 DefaultNodeGene(key=29275, bias=-0.43547238093476104, response=1.0, activation=gauss, aggregation=sum)
+Connections:
+        DefaultConnectionGene(key=(-2, 2461), weight=0.8054101292707099, enabled=True)
+        DefaultConnectionGene(key=(-2, 18164), weight=0.7929045924570663, enabled=False)
+        DefaultConnectionGene(key=(-1, 2461), weight=-0.7505565178729601, enabled=True)
+        DefaultConnectionGene(key=(-1, 5974), weight=-0.13368998107209118, enabled=False)
+        DefaultConnectionGene(key=(-1, 18164), weight=-0.5659330330057252, enabled=False)
+        DefaultConnectionGene(key=(-1, 29275), weight=0.5675790267523713, enabled=True)
+        DefaultConnectionGene(key=(2461, 0), weight=0.9107827789101561, enabled=True)
+        DefaultConnectionGene(key=(2461, 735), weight=9.483755542822891, enabled=True)
+        DefaultConnectionGene(key=(2461, 11092), weight=1.7965991487667106, enabled=True)
+        DefaultConnectionGene(key=(5974, 735), weight=0.5707968725765004, enabled=True)
+        DefaultConnectionGene(key=(11092, 735), weight=0.8046162468421687, enabled=True)
+        DefaultConnectionGene(key=(18164, 5974), weight=-0.8033933231332079, enabled=True)
+        DefaultConnectionGene(key=(29275, 18164), weight=1.3358399965069572, enabled=True)
