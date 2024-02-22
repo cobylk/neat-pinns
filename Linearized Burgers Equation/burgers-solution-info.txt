@@ -1,5 +1,5 @@
-L2 Error: 0.8345968127250671
-Training Fitness: -0.1165509819984436
+L2 Error: 8.345968127250671E-1
+Training Fitness: -1.165509819984436E-1
 7 nodes, 13 connections
 Nodes:
         0 DefaultNodeGene(key=0, bias=0.4704966955460289, response=1.0, activation=gauss, aggregation=product)
